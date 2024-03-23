@@ -1,0 +1,29 @@
+.footer{
+    background-color: #03232b;
+    z-index         : 1; 
+}
+.map{
+    bottom        : 0;
+    left          : 50%;
+    transform     : translateX(-50%);
+    z-index       : -1;
+    filter        : contrast(60%);
+    -webkit-filter: contrast(60%);
+}
+.footer-text{
+    font-size: 17px;
+    color: #f7f7f7;
+}
+.footer-link ul li{
+    font-size: 17px;
+}
+.copyright{
+    border-top: #f7f7f7 solid 2px;
+    color: #f7f7f7;
+    font-size: 16px;
+    
+}
+.social-icon ul li{
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,14 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import Portfolio from './pages/Portfolio'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
-import Dashboard from './pages/Dasboard'
+import Product from './pages/products'
 import Header from  './components/Header'
-import Footer from  './components/Footer'
+import Footer from  './components/Footer/Footer'
 
 
 
@@ -20,14 +17,9 @@ export default function App() {
     <Route path='/' element={<Home />}/>
     <Route path='/about-us' element={<About />}/>
     <Route path='/contact-us' element={<Contact />}/>
-    <Route path='/portfolio' element={<Portfolio />}/>
-    <Route path='/login' element={<Login />}/>
-    <Route path='/signup' element={<Signup />}/>
-    <Route path='/dashboard' element={<Dashboard />}/>
+    <Route path='/product' element={<Product />}/>
     </Routes>
     <Footer />
-    
-    
     </BrowserRouter>
   )
 }

@@ -1,0 +1,73 @@
+/*Custom Css*/
+
+.hero{
+    padding: 10rem;
+    padding-top: 15rem !important;
+    padding-bottom: 7rem !important;
+}
+.menu-link{
+    font-size: 15px;
+}
+.content-span{
+    padding-left: 0;
+    margin-left: -23rem;
+}
+.content-span a span{
+    display         : flex;
+    width           : 2rem;
+    height          : 0.10rem;
+    background-color: var(--primary-color);
+}
+.content-span a h5{
+ color: var(--primary-color);
+ font-weight: 500;
+ font-size: 16px;
+}
+.pStyle{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.trade ul li{
+    background-color: var(--white);
+    color: #036070;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    width: 15rem;
+}
+.trade ul li:nth-child(1) {
+    margin-left: 10px;
+}
+
+.trade ul li:nth-child(2) {
+    margin-left: 45px;
+}
+
+.trade ul li:nth-child(3) {
+    margin-left: 50px;
+}
+.coin p{
+        color: #032e4b;
+        font-weight: 500;
+        font-size: 17px;
+        padding-bottom: 15px;
+}
+
+.gift ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: #032e4b;
+}
+.data-content h1{
+    width: 80%;
+    font-weight: 700;
+    color: #032e4b;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.data-content h1 span{
+    color: var(--primary-color);
+}
