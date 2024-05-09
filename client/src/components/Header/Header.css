@@ -1,0 +1,26 @@
+.icoin{
+    background-color: #054a5c;
+    color: #fff;
+    font-size: 13px;
+   padding: 0.70rem;
+}
+.sub-titl{
+    font-size: 14px;
+    color: #006d88;
+}
+.drop{
+    margin-left: -1rem !important;
+    width:70% !important;
+}
+
+.menu-text{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #054a5c;
+    font-weight: 700;
+}
+.menu-subtext {
+    color: #656787;
+    font-size: 12px;
+    line-height: 120%;
+}
