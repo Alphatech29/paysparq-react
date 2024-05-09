@@ -98,4 +98,20 @@
         font-size: 14px;
         font-weight: 500;
     } 
+    .send{
+        padding: 1rem !important;
+        width: 100%;
+    }
+    .send .content{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    .send .content .content-text{
+        width: 100%;
+    }
+    .send .content .content-text h1{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
 }
