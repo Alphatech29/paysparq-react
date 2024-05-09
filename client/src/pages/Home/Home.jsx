@@ -19,13 +19,10 @@ export default function Home() {
         className="hero bg-cover bg-center bg-no-repeat "
         style={{ backgroundImage: "url(assets/image/paysparq-bg.svg)" }}
       >
-        <div className="container items-center justify-center flex">
-          <div className="content items-center justify-center flex flex-col  w-3/4">
-            <h1
-              className="hero-title font-bold text-4xl text-center font-sans"
-              style={{ color: "#ffff" }}
-            >
-              Your Gateway to Global Transactions, Gift Card Trading, and
+        <div className="container container-sm items-center justify-center flex">
+          <div className="content content-sm items-center justify-center flex flex-col  w-3/4">
+            <h1 className="hero-title font-bold text-4xl text-center font-sans"
+              style={{ color: "#ffff" }}>Your Gateway to Global Transactions, Gift Card Trading, and
               Cryptocurrency Brilliance!
             </h1>
             <p className="pStyle text-center font-sans pt-5">

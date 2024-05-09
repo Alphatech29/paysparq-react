@@ -24,3 +24,20 @@
     font-size: 12px;
     line-height: 120%;
 }
+
+
+/* Styles for Mobile screens (300px to 700px) */
+@media only screen and (min-width: 300px) and (max-width: 750px){
+    .bg-white {
+        right: .40rem !important;
+        left: .40rem !important;
+    }
+    .mx-auto{
+        display: flex !important;        
+    }
+    .w-36 {
+        width: 7rem !important;
+        padding-left: 10px;
+    }
+ 
+}

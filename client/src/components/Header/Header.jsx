@@ -10,6 +10,7 @@ export default function Header() {
       <Navbar.Brand href="/">
         <img src={paysparqLogo} className="w-36" alt="paysparq-logo" />
       </Navbar.Brand>
+      <Navbar.Toggle className="mr-2" />
       <Navbar.Collapse>
         <Navbar.Link className="menu-link" href="/" active>
           Home
@@ -144,7 +145,8 @@ export default function Header() {
           Contact Us
         </Navbar.Link>
       </Navbar.Collapse>
-      <Button className="px-4">Get started</Button>
+      <Button className="px-4 md:block md:w-auto hidden">Get started</Button>
+      
     </Navbar>
   );
 }

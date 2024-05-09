@@ -71,3 +71,31 @@
 .data-content h1 span{
     color: var(--primary-color);
 }
+
+
+/* Styles for Mobile screens (300px to 700px) */
+@media only screen and (min-width: 300px) and (max-width: 750px){
+    .hero-title{
+        font-size: 1.7rem !important;
+        line-height: 2.2rem !important;
+    }
+    .hero {
+        padding: 0rem;
+        padding-top: 10rem !important;
+        padding-bottom: 3rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-sm{
+        width: 100% !important;
+    }
+    .content-sm{
+    width: 100% !important;
+    }
+    .pStyle {
+        color: #ffff;
+        font-size: 14px;
+        font-weight: 500;
+    } 
+}
